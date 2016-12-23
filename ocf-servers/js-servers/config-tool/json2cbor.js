@@ -23,7 +23,6 @@ var shelljs = require( "shelljs" );
 var path = require( "path" );
 var sha = require( "sha.js" );
 var uuid = require( "uuid" );
-var rootPath = require( "bindings" ).getRoot( __dirname );
 var spawnSync = require( "child_process" ).spawnSync;
 
 var configPath = path.join( osenv.home(), ".iotivity-node",
